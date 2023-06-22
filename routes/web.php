@@ -155,3 +155,8 @@ Route::get('register',array('as'=>'register',function(){
 Route::get('home',function(){
     return Redirect::route('home.internaute');
 });
+
+
+Route::get('linkedin',function(){
+    return redirect()->away('https://www.linkedin.com/in/fernandzangue');
+})->name('linkedin');
