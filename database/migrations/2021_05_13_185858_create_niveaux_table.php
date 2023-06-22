@@ -18,7 +18,7 @@ class CreateNiveauxTable extends Migration
             $table->string('nom')->unique();
             $table->unsignedBigInteger("enseignant_id")->require;// enseignant en charge
             $table->timestamps();
-            $table->foreign("enseignant_id")->references("id")->on('enseignant');
+            $table->foreign("enseignant_id")->references("id")->on('enseignants');
         });
     }
 

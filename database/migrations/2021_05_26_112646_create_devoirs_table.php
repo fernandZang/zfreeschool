@@ -21,7 +21,7 @@ class CreateDevoirsTable extends Migration
             $table->timestamps();
 
             $table->foreign("cour_id")->references("id")->on('cours');
-            $table->foreign("cour_id")->references("id")->on('ues');
+            $table->foreign("ue_id")->references("id")->on('ues');
         });
     }
 

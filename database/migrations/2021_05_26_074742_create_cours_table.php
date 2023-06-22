@@ -23,7 +23,7 @@ class CreateCoursTable extends Migration
             $table->unsignedBigInteger("enseignant_id")->index();
             $table->timestamps();
 
-            $table->foreign("enseignant_id")->references("id")->on('enseignant'); 
+            $table->foreign("enseignant_id")->references("id")->on('enseignants'); 
 
             $table->foreign("ue_id")->references("id")->on('ues');
         });
