@@ -13,9 +13,12 @@
         gtag('config', 'G-L1PCGMRW6Y');
     </script>
 
-    
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv='content-language' content='fr-cm'>
+  <meta name="description" content="vous avez toujours rever de voir votre ecole en ligne, zfreeschool est le lycée tant revée et souhaiter connecter vous et creer votre profil pour suivre vos cours comme dans une sale de classe">
+  
   <title>@yield('title')</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
